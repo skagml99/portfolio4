@@ -1,0 +1,40 @@
+:root {
+    --main-color: #a73b59;
+    --sub-color: #e26a00;
+    --txt-color: #666;
+
+    /* --pt-color: #160c74; */
+    --pt-color: #d89fa0;
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        max-width: 1170px;
+        margin: 0 auto;
+
+        /* r */
+        margin: 0 16px;
+    }
+}
+
+.title {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin: 0 auto;
+
+        /* r */
+        margin: 0 16px;
+    }
+}
+
+.default {
+    padding: 80px 0;
+}
